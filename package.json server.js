@@ -1,8 +1,11 @@
 package.json {
   "name": "bot-croquis",
   "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.18.0",
     "dotenv": "^16.0.0"
-  }
-}
+  }  } server.js
